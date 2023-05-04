@@ -6,6 +6,7 @@ import {
   AiFillGithub,
   AiOutlineTwitter,
   AiFillInstagram,
+  AiFillYoutube,
 } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 
@@ -105,6 +106,17 @@ function Home2() {
                   <AiFillInstagram />
                 </a>
               </li>
+                <li className="social-icons">
+                <a
+                  href="https://www.youtube.com/@techbuild.studio/"
+                  target="_blank"
+                  rel="noreferrer"
+                  className="icon-colour  home-social-icons"
+                >
+                  <AiFillYoutube />
+                </a>
+              </li>
+              
             </ul>
           </Col>
         </Row>
