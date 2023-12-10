@@ -44,3 +44,10 @@ steps:
     includeRootFolder: false
 - task: PublishBuildArtifacts@1
 
+# host it on aws ec2 inputs:
+#   artifactName: 'drop'
+#   publishLocation: 'AWS.S3'
+#   awsCredentials: 'aws-credentials'
+#   s3Bucket: 'my-bucket'
+#   s3Prefix: 'my-prefix'
+
