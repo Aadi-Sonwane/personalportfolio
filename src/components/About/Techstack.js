@@ -17,7 +17,7 @@ import {
   SiAmazonaws,
   SiAzuredevops,
   SiMicrosoftazure,
-  SiPython,
+  //SiPython,
   SiC,
 } from "react-icons/si";
 
